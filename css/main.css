@@ -11,7 +11,7 @@
     min-width: 10em;
   }
 
-  .flex-container > div{
+  div.flex-container {
     max-width: 100% !important;
   }
 
@@ -196,6 +196,9 @@ input[type="submit"]:hover,  input[type=reset]:hover {
   background: #ECA315;
 }
 
+.red {
+  background: red;
+}
 
 
 .topnav {
@@ -213,8 +216,8 @@ input[type="submit"]:hover,  input[type=reset]:hover {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  
+  color: blue;
 }
 
 .topnav a.active {
