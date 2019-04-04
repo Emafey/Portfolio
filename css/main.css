@@ -17,12 +17,23 @@
 
 }
 
+
+.footer {
+    padding-top: 2em;
+   position: static;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+}
+
+
 a:link {
-  color: red;
+  color: #E81B1B;
 }
 
 a:visited {
-  color: grey;
+  color: #980B0B;
 }
 
 body {
@@ -197,7 +208,7 @@ input[type="submit"]:hover,  input[type=reset]:hover {
 }
 
 .red {
-  background: red;
+  background: #E81B1B;
 }
 
 
