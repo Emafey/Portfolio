@@ -14,7 +14,7 @@
     padding-right: 1px!important;
     min-width: 10em;
 
-        transition:all .3s linear; 
+    transition:all .3s linear; 
     -o-transition:all .3s linear; 
     -moz-transition:all .3s linear; 
     -webkit-transition:all .3s linear;
@@ -25,6 +25,13 @@
   }
   .flex-container{
     flex-wrap: wrap !important;
+  }
+  @media screen and (max-width: 600px) {
+    .topnav{
+      float: left;
+      display: block;
+      text-align: left;
+    }
   }
 }
 
@@ -142,14 +149,9 @@ input[type=button], input[type=submit], input[type=reset] {
 }
 
 input[type="submit"]:hover,  input[type=reset]:hover {
-
   background-color: #2743D8;
   color: white;
 }
-
-
-
-
 
 
 .flex-container {
@@ -179,8 +181,6 @@ a:link {
 a:visited {
   color: #980B0B;
 }
-
-
 
 
 .image {
@@ -222,12 +222,8 @@ a:visited {
 }
 
 
-
-
-
 .topnav {
   overflow: hidden;
-
 }
 
 .topnav a {

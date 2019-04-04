@@ -1,3 +1,17 @@
+@media only screen and (max-width: 100em) {
+  p, h1, h2, h3, ol {
+    padding-left: 1px!important;
+    padding-right: 1px!important;
+  }
+  body{
+    padding-left: 3rem !important;
+    padding-right: 3rem!important;
+  }
+  .a{
+    padding: 1em!important;
+  }
+}
+
 img{
   max-width: 40%;
   display: block;
@@ -7,27 +21,11 @@ img{
 
 p{
   text-align: left;
-  padding-right: 25em;
-  padding-left: 25em;
+  padding-right: 25rem;
+  padding-left: 25rem;
   font-size: 1.3em;
 
 }
-
-@media only screen and (max-width: 100em) {
-  p, h1, h2, h3, ol {
-      padding-left: 1px!important;
-  padding-right: 1px!important;
-  }
-  body{
-          padding-left: 1px !important;
-  padding-right: 1px!important;
-  }
-  .a{
-    padding: 1em!important;
-  }
-}
-
-
 
 .topnav-right a {
   display: block;
@@ -37,72 +35,24 @@ p{
   text-decoration: none;
 }
 
-.topnav-right a:hover:not(.active) {background-color: #111;}
-
 .topnav-right a.active {background-color: #4CAF50;}
-
 .topnav-right.right {float: right;}
 
 @media screen and (max-width: 600px) {
   .topnav-right.right, 
   .topnav-right {float: none;}
-
 }
+
 @media screen and (max-width: 600px) {
   .topnav{
     float: left;
     display: block;
     text-align: left;
-    }
-
-  }
-  .topnav-right.responsive a {
-    float: none;
-    display: block;
-
-    text-align: right;
-  }
-
-/*
-.topnav-right a {
-  float: left;
-  display: inline-block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-
-.active {
-  color: white;
-}
-
-.topnav-right .icon {
-  display: none;
-}
-
-@media screen and (max-width: 600px) {
-  .topnav-right a {display: none;}
-  .topnav-right a.icon {
-    float: right;
-    display: inline-block;
   }
 }
 
-@media screen and (max-width: 600px) {
-  .topnav-right.responsive {position: relative;}
-  .topnav-right.responsive .icon {
-    position: absolute;
-    right: 0;
-
-    top: 0;
-  }
-  .topnav-right.responsive a {
-    float: none;
-    display: block;
-
-    text-align: right;
-  }
-  */
+.topnav-right.responsive a {
+  float: none;
+  display: block;
+  text-align: right;
+}

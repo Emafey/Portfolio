@@ -7,31 +7,36 @@
   body{
     min-width: 10em;
 
-        transition:all .3s linear; 
+    transition:all .3s linear; 
     -o-transition:all .3s linear; 
     -moz-transition:all .3s linear; 
     -webkit-transition:all .3s linear;
   }
 
-    .a{
+  .a{
     padding: 2em!important;
   }
 
   .flex-container > div {
-        max-width: 100% !important;
-
+    max-width: 100% !important;
   }
-
+  @media screen and (max-width: 600px) {
+    .topnav{
+      float: left;
+      display: block;
+      text-align: left;
+    }
+  }
 }
 
 
 .footer {
-    padding-top: 2em;
-   position: static;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   text-align: center;
+  padding-top: 2em;
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 
 
@@ -47,7 +52,6 @@ body {
   font-family: 'Karla', sans-serif;
   padding: 2rem;
 }
-
 
 
 section:not([id]) {
@@ -81,7 +85,6 @@ h2 {
 }
 
 
-
 .button-nav {
   display: inline-block;
   padding: 0.5em 0.75em;
@@ -98,7 +101,7 @@ h2 {
 }
 
 input[type=button], input[type=submit], input[type=reset] {
-    font-family: 'Karla', sans-serif;
+  font-family: 'Karla', sans-serif;
   border-style: none;
   background-color: #4964F3;
   color: white;
@@ -106,20 +109,15 @@ input[type=button], input[type=submit], input[type=reset] {
   padding: 0.3rem 2rem;
   text-decoration: none;
   cursor: pointer;
-    -webkit-transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
 
 input[type="submit"]:hover,  input[type=reset]:hover {
 
-    background-color: #2743D8;
-    color: white;
+  background-color: #2743D8;
+  color: white;
 }
-
-
-
-
-
 
 .flex-container {
   position: relative;
@@ -139,12 +137,6 @@ input[type="submit"]:hover,  input[type=reset]:hover {
   font-size: 30px;
   padding: 2rem;
 }
-
-
-
-
-
-
 
 .image {
   opacity: 1;
@@ -189,10 +181,7 @@ input[type="submit"]:hover,  input[type=reset]:hover {
   width: 20px;
   height: 20px;
   margin: 5px;
-
-
 }
-
 
 .blue {
   background: #4964F3;
@@ -209,7 +198,6 @@ input[type="submit"]:hover,  input[type=reset]:hover {
 
 .topnav {
   overflow: hidden;
-
 }
 
 .topnav a {
@@ -222,7 +210,6 @@ input[type="submit"]:hover,  input[type=reset]:hover {
 }
 
 .topnav a:hover {
-  
   color: blue;
 }
 
