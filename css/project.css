@@ -1,8 +1,13 @@
 
 @media only screen and (max-width: 50em) {
-  p, h1, h2, h3, ol {
+  p, h1, h2, h3, ul {
     padding-left: 1px!important;
     padding-right: 1px!important;
+  }
+  ol{
+
+    padding-left: 3rem!important;
+    padding-right: 3rem!important;
   }
   body{
     padding-left: 1px !important;
@@ -42,9 +47,14 @@
 .flex-container > div {
 }
 
-p, h1, h2, h3, ol{
+p, h1, h2, h3, ul{
   padding-left: 10rem;
   padding-right: 10rem;
+}
+
+ol{
+  padding-right: 15rem;
+  padding-left: 15rem;
 }
 
 p{
@@ -93,8 +103,8 @@ h2 {
 
 
 img {
-  padding: 5rem;
-  max-width: 50%;
+  padding: 3rem;
+  max-width: 70%;
   justify-content: center;
   display: block;
   margin-left: auto;
