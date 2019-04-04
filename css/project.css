@@ -1,17 +1,18 @@
-/*
-  STYLE GUIDE STYLING 
-  Default styling for the style guide 
-*/
 
 @media only screen and (max-width: 50em) {
   p, h1, h2, h3, ol {
-      padding-left: 1px!important;
-  padding-right: 1px!important;
+    padding-left: 1px!important;
+    padding-right: 1px!important;
   }
   body{
-          padding-left: 1px !important;
-  padding-right: 1px!important;
-  min-width: 10em;
+    padding-left: 1px !important;
+    padding-right: 1px!important;
+    min-width: 10em;
+
+        transition:all .3s linear; 
+    -o-transition:all .3s linear; 
+    -moz-transition:all .3s linear; 
+    -webkit-transition:all .3s linear;
   }
   img{
     max-width: 90% !important;
@@ -24,11 +25,11 @@
 
 .footer {
   padding-top: 2em;
-   position: static;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   text-align: center;
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 
 
@@ -52,8 +53,8 @@ p{
 }
 
 li{
-    font-family: 'Karla', sans-serif;
-    font-size: 1.2em;
+  font-family: 'Karla', sans-serif;
+  font-size: 1.2em;
 }
 
 body {
@@ -82,13 +83,9 @@ section code {
 
 h1 {
   font-size: 3em;
-   /* margin-left: 5em;
-margin-right: 5em; */
 }
 
 h2 {
-  /*margin-left: 10em;
-margin-right: 10em; */
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 1.5em;
@@ -99,24 +96,13 @@ img {
   padding: 5rem;
   max-width: 50%;
   justify-content: center;
-    display: block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
 
 
-/* 
-    padding: 5rem;
-  max-width: 70%;
-  justify-content: center;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-*/
-
-/* Styling for the navigation button */
 .button-nav {
   display: inline-block;
   padding: 0.5em 0.75em;
@@ -133,8 +119,7 @@ img {
 }
 
 input[type=button], input[type=submit], input[type=reset] {
-    font-family: 'Karla', sans-serif;
-  /*border: 2px solid black; */
+  font-family: 'Karla', sans-serif;
   border-style: none;
   background-color: #4964F3;
   color: white;
@@ -142,14 +127,14 @@ input[type=button], input[type=submit], input[type=reset] {
   padding: 0.3rem 2rem;
   text-decoration: none;
   cursor: pointer;
-    -webkit-transition-duration: 0.4s; /* Safari */
+  -webkit-transition-duration: 0.4s; 
   transition-duration: 0.4s;
 }
 
 input[type="submit"]:hover,  input[type=reset]:hover {
 
-    background-color: #2743D8;
-    color: white;
+  background-color: #2743D8;
+  color: white;
 }
 
 
@@ -178,8 +163,12 @@ input[type="submit"]:hover,  input[type=reset]:hover {
 
 }
 
-
-
+a:link {
+  color: #E81B1B;
+}
+a:visited {
+  color: #980B0B;
+}
 
 
 
@@ -222,23 +211,7 @@ input[type="submit"]:hover,  input[type=reset]:hover {
   padding: 16px 32px;
 }
 
-.foo {
-  float: left;
-  width: 20px;
-  height: 20px;
-  margin: 5px;
 
-
-}
-
-
-.blue {
-  background: #4964F3;
-}
-
-.yellow {
-  background: #ECA315;
-}
 
 
 
